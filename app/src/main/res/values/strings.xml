@@ -1,3 +1,7 @@
 <resources>
-    <string name="app_name">Estimmo</string>
+    <string name="app_name">Est\'Immo</string>
+    <string name="title">Vous souhaitez estimer  votre bien , acquérir un bien !  </string>
+    <string name="simulez">Simulez</string>
+
+
 </resources>

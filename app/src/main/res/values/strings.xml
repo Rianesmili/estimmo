@@ -1,3 +1,10 @@
 <resources>
-    <string name="app_name">Estimmo</string>
+    <string name="app_name">Est\'Immo</string>
+    <string name="title">Vous souhaitez estimer votre bien ou acquérir un bien !</string>
+    <string name="start">Commencer</string>
+    <string name="title_input">Saisissez les informations du bien que vous souhaiterez estimer:</string>
+    <string name="title_simulation">Saisissez les informations du bien à simuler:</string>
+    <string name="number_bedroom">Nombre de chambre</string>
+    <string name="cadastral_domain">Domaine cadastral:</string>
+    <string name="simulate">Simulez</string>
 </resources>

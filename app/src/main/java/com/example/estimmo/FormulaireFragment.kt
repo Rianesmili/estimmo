@@ -14,7 +14,6 @@ class FormulaireFragment : Fragment(R.layout.fragment_formulaire) {
 
     private lateinit var binding: FragmentFormulaireBinding
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?

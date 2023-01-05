@@ -8,4 +8,14 @@
     <string name="cadastral_domain">Domaine cadastral:</string>
     <string name="simulate">Simulez</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <array name="string_array">
+        <item name="select item"> Choisir un type de bien:</item>
+        <item>Appartement</item>
+        <item>Maison</item>
+    </array>
+
+
+
+
 </resources>

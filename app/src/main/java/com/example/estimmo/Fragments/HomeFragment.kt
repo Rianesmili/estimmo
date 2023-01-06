@@ -8,7 +8,9 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.estimmo.R
 import com.example.estimmo.databinding.FragmentHomeBinding
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class HomeFragment : Fragment() {
 
     private lateinit var binding: FragmentHomeBinding
@@ -17,15 +19,17 @@ class HomeFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
-        val view = inflater.inflate(R.layout.fragment_home, container, false)
+        binding = FragmentHomeBinding.inflate(layoutInflater)
 
-        binding = FragmentHomeBinding.bind(view)
+        // Inflate the layout for this fragment
+        //val view = inflater.inflate(R.layout.fragment_home, container, false)
+
+
 
         binding.ButtonStart.setOnClickListener{
             findNavController().navigate(R.id.action_homeFragment_to_formulaireFragment)
         }
-        return view
+        return binding.root
 
 
     }

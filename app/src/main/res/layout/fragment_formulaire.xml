@@ -81,6 +81,7 @@
 
         <EditText
             android:layout_width="match_parent"
+            android:id="@+id/superficie_terrain"
             android:layout_height="48dp"
             android:background="@color/white"
             android:hint="Superface du terrain X3" />
@@ -90,6 +91,7 @@
             android:layout_height="30dp"
             />
         <EditText
+            android:id="@+id/superficie_reel"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:background="@color/white"
@@ -101,6 +103,7 @@
             />
         <EditText
             android:layout_width="match_parent"
+            android:id="@+id/nbr_pieces"
             android:layout_height="48dp"
             android:background="@color/white"
             android:hint="Nombres de pieces X2"

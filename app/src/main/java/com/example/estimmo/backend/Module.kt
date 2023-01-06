@@ -9,5 +9,5 @@ import dagger.hilt.android.components.ViewModelComponent
 @InstallIn(ViewModelComponent::class)
 abstract class ImmoBackendModule{
     @Binds
-    abstract fun bindImmoBackend(immoBackendImpl: ImmoBackendImpl):ImmoBackendImpl
+    abstract fun bindImmoBackend(immoBackendImpl:ImmoBackendImpl):ImmoBackendInterface
 }

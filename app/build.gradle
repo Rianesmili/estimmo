@@ -1,11 +1,16 @@
 plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+    id 'kotlin-parcelize'
+
 }
 
 android {
     namespace 'com.example.estimmo'
     compileSdk 32
+
 
     defaultConfig {
         applicationId "com.example.estimmo"
@@ -39,6 +44,7 @@ android {
 }
 
 dependencies {
+    implementation "android.arch.lifecycle:extensions:1.1.1"
     implementation("androidx.navigation:navigation-fragment-ktx:2.3.5")
     implementation("androidx.navigation:navigation-ui-ktx:2.3.5")
     implementation("androidx.navigation:navigation-dynamic-features-fragment:2.3.5")
@@ -46,4 +52,8 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    implementation "com.google.dagger:hilt-android:2.38.1"
+    kapt "com.google.dagger:hilt-compiler:2.38.1"
+
+
 }

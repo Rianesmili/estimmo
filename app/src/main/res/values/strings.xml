@@ -8,13 +8,6 @@
     <string name="cadastral_domain">Domaine cadastral:</string>
     <string name="simulate">Simulez</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="nombre_de_chambres">Nombre de chambres</string>
-    <string name="type_de_bien">type_de bien</string>
-    <string name="nombre_de_chambre">Nombre de chambres</string>
-    <string name="information_fil">Veuillez remplir les informations suivantes</string>
-    <string name="estimer">Estimer</string>
-    <string name="superficie_du_terrain">Superficie du terrain</string>
-    <string name="surface_r_el_batiment">Surface réel batiment</string>
 
     <array name="string_array">
         <item>Appartement</item>

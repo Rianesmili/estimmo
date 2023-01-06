@@ -97,9 +97,8 @@
 
         <TextView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="40dp"
             android:gravity="center"
-            android:id="@+id/estimation"
             android:textSize="25sp"
             android:text="Estimation :"
             android:background="@color/white"

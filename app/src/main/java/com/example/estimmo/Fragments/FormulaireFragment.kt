@@ -5,6 +5,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.*
+import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.activityViewModels
 import androidx.navigation.fragment.findNavController
@@ -68,7 +69,7 @@ class FormulaireFragment : Fragment(R.layout.fragment_formulaire) {
             viewModel.superficie_terrain = binding.superficieTerrain.text.toString()
             viewModel.nombre_de_pieces = binding.nbrPieces.text.toString()
 
-            viewModel.parcelle =binding.spinnerParcelle.selectedItem.toString()
+            viewModel.parcelle = binding.spinnerParcelle.selectedItemPosition.toString()
             viewModel.type = binding.spinner.selectedItem.toString()
 
             findNavController().navigate(R.id.action_formulaireFragment_to_resultFragment)

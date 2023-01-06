@@ -9,4 +9,14 @@ class ViewModel : ViewModel() {
     lateinit var nombre_de_pieces:String
     lateinit var parcelle:String
     lateinit var type:String
+
+    //parsing to double for calcules
+/*
+ var valueX1: Double = superficie_reel.toDouble()
+    var valueX3: Double = superficie_terrain.toDouble()
+    var valueX2: Double = nombre_de_pieces.toDouble()
+    var valueX4: Double = parcelle.toDouble()
+
+ */
+
 }

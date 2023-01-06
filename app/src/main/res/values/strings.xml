@@ -10,44 +10,42 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <array name="string_array">
-        <item name="select item">Choisir un type de bien:</item>
         <item>Appartement</item>
         <item>Maison</item>
     </array>
 
     <array name="string_array_parcelle">
-        <item name="select item">Choisir la parcelle:</item>
-        <item>AB</item>
-        <item>AC</item>
-        <item>AD</item>
-        <item>AE</item>
-        <item>AH</item>
-        <item>AI</item>
-        <item>AK</item>
-        <item>AO</item>
-        <item>AP</item>
-        <item>AR</item>
-        <item>AS</item>
-        <item>AT</item>
-        <item>AV</item>
-        <item>AW</item>
-        <item>AX</item>
-        <item>AY</item>
-        <item>AZ</item>
-        <item>BC</item>
-        <item>BD</item>
-        <item>BE</item>
-        <item>BH</item>
-        <item>BK</item>
-        <item>BL</item>
-        <item>BM</item>
-        <item>BO</item>
-        <item>BP</item>
-        <item>BR</item>
-        <item>BS</item>
-        <item>BT</item>
-        <item>BV</item>
-        <item>BW</item>
+        <item id= "0">AB</item>
+        <item id= "2">AC</item>
+        <item id= "3">AD</item>
+        <item id= "4">AE</item>
+        <item id= "5">AH</item>
+        <item id= "6">AI</item>
+        <item id= "7">AK</item>
+        <item  id= "8">AO</item>
+        <item  id= "9">AP</item>
+        <item  id= "10">AR</item>
+        <item id= "11">AS</item>
+        <item  id= "12">AT</item>
+        <item  id= "13">AV</item>
+        <item  id= "14">AW</item>
+        <item  id= "16">AX</item>
+        <item id= "17">AY</item>
+        <item id="18">AZ</item>
+        <item id="19">BC</item>
+        <item id="20">BD</item>
+        <item id="21">BE</item>
+        <item id="22">BH</item>
+        <item id="23">BK</item>
+        <item id="24">BL</item>
+        <item id="25">BM</item>
+        <item id="26">BO</item>
+        <item id="27">BP</item>
+        <item id="28">BR</item>
+        <item id="29">BS</item>
+        <item id="30">BT</item>
+        <item id="31">BV</item>
+        <item id="28">BW</item>
     </array>
 
 

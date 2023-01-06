@@ -10,6 +10,10 @@ class ViewModel : ViewModel() {
     lateinit var parcelle:String
     lateinit var type:String
 
+    lateinit var estimation:String
+
+
+
     //parsing to double for calcules
 /*
  var valueX1: Double = superficie_reel.toDouble()

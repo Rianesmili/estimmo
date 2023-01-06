@@ -36,7 +36,7 @@
         android:gravity="center"
         android:paddingHorizontal="20dp"
         android:textColor="@color/black"
-        android:text="Veuillez remplir les informations suivantes"
+        android:text="@string/information_fil"
         />
 
     <Space
@@ -54,7 +54,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="Nombre de chambres"
+            android:hint="@string/nombre_de_chambre"
             android:spinnerMode="dialog"
             android:contentDescription="type_de bien"
             android:padding="15dp"
@@ -68,9 +68,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="Nombre de chambres"
+            android:hint="@string/nombre_de_chambres"
             android:spinnerMode="dialog"
-            android:contentDescription="type_de bien"
+            android:contentDescription="@string/type_de_bien"
             android:padding="15dp"
             />
 
@@ -84,7 +84,7 @@
             android:id="@+id/superficie_terrain"
             android:layout_height="48dp"
             android:background="@color/white"
-            android:hint="Superface du terrain X3" />
+            android:hint="@string/superficie_du_terrain" />
 
         <Space
             android:layout_width="match_parent"
@@ -96,7 +96,7 @@
             android:layout_height="40dp"
             android:background="@color/white"
             android:textSize="20sp"
-            android:hint="Surface réel batiment X1"/>
+            android:hint="@string/surface_r_el_batiment"/>
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp"
@@ -106,7 +106,7 @@
             android:id="@+id/nbr_pieces"
             android:layout_height="48dp"
             android:background="@color/white"
-            android:hint="Nombres de pieces X2"
+            android:hint="Nombres de pieces"
             />
 
         <Space
@@ -125,7 +125,7 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="30dp"
         android:background="#DD6F4D"
-        android:text="Estimer"
+        android:text="@string/estimer"
         android:textColor="@color/white"
         android:textSize="25sp"
         />

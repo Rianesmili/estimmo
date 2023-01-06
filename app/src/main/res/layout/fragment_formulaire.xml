@@ -8,7 +8,7 @@
     android:background="#ECE7E5"
     android:gravity="center_horizontal"
     android:padding="10dp"
-    tools:context=".FormulaireFragment"
+    tools:context=".Fragments.FormulaireFragment"
     >
 
     <ImageView
@@ -16,6 +16,14 @@
         android:layout_height="200dp"
         android:src="@mipmap/ic_launcher"
         />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
 
     <Space
         android:layout_width="match_parent"
@@ -30,6 +38,7 @@
         android:textColor="@color/black"
         android:text="Veuillez remplir les informations suivantes"
         />
+
     <Space
         android:layout_width="match_parent"
         android:layout_height="30dp"
@@ -40,26 +49,6 @@
         android:orientation="vertical"
         android:layout_marginHorizontal="20dp">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@color/white"
-            android:textSize="20sp"
-            android:hint="Surface réel du batiment"/>
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@color/white"
-            android:hint="Superficie"
-            />
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="match_parent"
@@ -67,25 +56,68 @@
             android:background="@color/white"
             android:hint="Nombre de chambres"
             android:spinnerMode="dialog"
-            android:padding="10dp"
+            android:contentDescription="type_de bien"
+            android:padding="15dp"
             />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <Spinner
+            android:id="@+id/spinnerParcelle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:hint="Nombre de chambres"
+            android:spinnerMode="dialog"
+            android:contentDescription="type_de bien"
+            android:padding="15dp"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:id="@+id/superficie_terrain"
+            android:layout_height="48dp"
+            android:background="@color/white"
+            android:hint="Superface du terrain X3" />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <EditText
+            android:id="@+id/superficie_reel"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:textSize="20sp"
+            android:hint="Surface réel batiment X1"/>
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp"
             />
         <EditText
             android:layout_width="match_parent"
-            android:layout_height="40dp"
+            android:id="@+id/nbr_pieces"
+            android:layout_height="48dp"
             android:background="@color/white"
-            android:hint="Prix"
+            android:hint="Nombres de pieces X2"
+            />
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
             />
 
     </LinearLayout>
-
-
     <Space
         android:layout_width="match_parent"
-        android:layout_height="90dp"
+        android:layout_height="20dp"
         />
     <Button
         android:id="@+id/button_estimer"
@@ -97,4 +129,7 @@
         android:textColor="@color/white"
         android:textSize="25sp"
         />
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>

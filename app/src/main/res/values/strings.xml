@@ -10,12 +10,45 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <array name="string_array">
-        <item name="select item"> Choisir un type de bien:</item>
+        <item name="select item">Choisir un type de bien:</item>
         <item>Appartement</item>
         <item>Maison</item>
     </array>
 
-
+    <array name="string_array_parcelle">
+        <item name="select item">Choisir la parcelle:</item>
+        <item>AB</item>
+        <item>AC</item>
+        <item>AD</item>
+        <item>AE</item>
+        <item>AH</item>
+        <item>AI</item>
+        <item>AK</item>
+        <item>AO</item>
+        <item>AP</item>
+        <item>AR</item>
+        <item>AS</item>
+        <item>AT</item>
+        <item>AV</item>
+        <item>AW</item>
+        <item>AX</item>
+        <item>AY</item>
+        <item>AZ</item>
+        <item>BC</item>
+        <item>BD</item>
+        <item>BE</item>
+        <item>BH</item>
+        <item>BK</item>
+        <item>BL</item>
+        <item>BM</item>
+        <item>BO</item>
+        <item>BP</item>
+        <item>BR</item>
+        <item>BS</item>
+        <item>BT</item>
+        <item>BV</item>
+        <item>BW</item>
+    </array>
 
 
 </resources>

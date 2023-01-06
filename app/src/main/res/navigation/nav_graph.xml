@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.estimmo.HomeFragment"
+        android:name="com.example.estimmo.fragment.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" >
         <action
@@ -16,11 +16,11 @@
     </fragment>
     <fragment
         android:id="@+id/formulaireFragment"
-        android:name="com.example.estimmo.FormulaireFragment"
-        android:label="fragment_formulaire2"
+        android:name="com.example.estimmo.fragment.FormulaireFragment"
+        android:label="fragment_formulaire"
         tools:layout="@layout/fragment_formulaire" >
         <action
             android:id="@+id/action_formulaireFragment_to_homeFragment"
-            app:destination="@id/homeFragment" />
+            app:destination="@id/homeFragment"/>
     </fragment>
 </navigation>

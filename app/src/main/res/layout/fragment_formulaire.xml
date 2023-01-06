@@ -8,7 +8,7 @@
     android:background="#ECE7E5"
     android:gravity="center_horizontal"
     android:padding="10dp"
-    tools:context=".FormulaireFragment"
+    tools:context=".fragment.FormulaireFragment"
     >
 
     <ImageView
@@ -40,39 +40,42 @@
         android:orientation="vertical"
         android:layout_marginHorizontal="20dp">
 
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@color/white"
-            android:textSize="20sp"
-            android:hint="Surface réel du batiment"/>
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@color/white"
-            android:hint="Superficie"
-            />
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:background="@color/white"
-            android:hint="Nombre de chambres"
             android:spinnerMode="dialog"
             android:padding="10dp"
+            android:entries="@array/string_array"
             />
         <Space
             android:layout_width="match_parent"
             android:layout_height="30dp"
             />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:textSize="20sp"
+            android:hint="Surface de la maison"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/white"
+            android:hint="surface de terrain"
+            />
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            />
+
+
         <EditText
             android:layout_width="match_parent"
             android:layout_height="40dp"

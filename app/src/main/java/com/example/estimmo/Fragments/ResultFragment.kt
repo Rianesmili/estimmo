@@ -25,7 +25,6 @@ class ResultFragment : Fragment() {
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
-        //val view = inflater.inflate(R.layout.fragment_result, container, false)
 
         binding = FragmentResultBinding.inflate(layoutInflater)
         binding.BackStart.setOnClickListener{
@@ -40,6 +39,7 @@ class ResultFragment : Fragment() {
         val nbr_pieces =viewModel.nombre_de_pieces
         val type_parcelle = viewModel.parcelle
         val type = viewModel.type
+        val estimation = viewModel.estimation
 
 
         binding.superficieReel.text = "Superficie réel : $superficie_reel"
@@ -47,6 +47,7 @@ class ResultFragment : Fragment() {
         binding.nbrPieces.text ="Nombre de piéces : $nbr_pieces"
         binding.codeParcelle.text = "Code Parcelle : $type_parcelle"
         binding.type.text= "Type : $type"
+        binding.estimation.text= "$estimation"
     }
 
 

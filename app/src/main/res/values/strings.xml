@@ -8,10 +8,52 @@
     <string name="cadastral_domain">Domaine cadastral:</string>
     <string name="simulate">Simulez</string>
     <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="nombre_de_chambres">Nombre de chambres</string>
+    <string name="type_de_bien">type_de bien</string>
+    <string name="nombre_de_chambre">Nombre de chambres</string>
+    <string name="information_fil">Veuillez remplir les informations suivantes</string>
+    <string name="estimer">Estimer</string>
+    <string name="superficie_du_terrain">Superficie du terrain</string>
+    <string name="surface_r_el_batiment">Surface réel batiment</string>
 
     <array name="string_array">
-        <item name="select item"> Choisir un type de bien:</item>
         <item>Appartement</item>
         <item>Maison</item>
     </array>
+
+    <array name="string_array_parcelle">
+        <item id= "0">AB</item>
+        <item id= "2">AC</item>
+        <item id= "3">AD</item>
+        <item id= "4">AE</item>
+        <item id= "5">AH</item>
+        <item id= "6">AI</item>
+        <item id= "7">AK</item>
+        <item  id= "8">AO</item>
+        <item  id= "9">AP</item>
+        <item  id= "10">AR</item>
+        <item id= "11">AS</item>
+        <item  id= "12">AT</item>
+        <item  id= "13">AV</item>
+        <item  id= "14">AW</item>
+        <item  id= "16">AX</item>
+        <item id= "17">AY</item>
+        <item id="18">AZ</item>
+        <item id="19">BC</item>
+        <item id="20">BD</item>
+        <item id="21">BE</item>
+        <item id="22">BH</item>
+        <item id="23">BK</item>
+        <item id="24">BL</item>
+        <item id="25">BM</item>
+        <item id="26">BO</item>
+        <item id="27">BP</item>
+        <item id="28">BR</item>
+        <item id="29">BS</item>
+        <item id="30">BT</item>
+        <item id="31">BV</item>
+        <item id="28">BW</item>
+    </array>
+
+
 </resources>

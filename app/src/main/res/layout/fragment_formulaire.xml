@@ -7,129 +7,122 @@
     android:orientation="vertical"
     android:background="#ECE7E5"
     android:gravity="center_horizontal"
-    android:padding="10dp"
     tools:context=".Fragments.FormulaireFragment"
     >
 
     <ImageView
-        android:layout_width="200dp"
-        android:layout_height="200dp"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
         android:src="@mipmap/ic_launcher"
         />
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical">
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:gravity="center"
+                android:paddingHorizontal="20dp"
+                android:textColor="@color/black"
+                android:text="@string/information_fil"
+                />
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="25sp"
-        android:gravity="center"
-        android:paddingHorizontal="20dp"
-        android:textColor="@color/black"
-        android:text="@string/information_fil"
-        />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginHorizontal="20dp">
 
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        />
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginHorizontal="20dp">
+                <Spinner
+                    android:id="@+id/spinner"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/nombre_de_chambre"
+                    android:spinnerMode="dialog"
+                    android:contentDescription="type_de bien"
+                    />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    />
+                <Spinner
+                    android:id="@+id/spinnerParcelle"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@color/white"
+                    android:hint="@string/nombre_de_chambres"
+                    android:spinnerMode="dialog"
+                    android:contentDescription="@string/type_de_bien"
 
-        <Spinner
-            android:id="@+id/spinner"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:hint="@string/nombre_de_chambre"
-            android:spinnerMode="dialog"
-            android:contentDescription="type_de bien"
-            android:padding="15dp"
-            />
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
-        <Spinner
-            android:id="@+id/spinnerParcelle"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:background="@color/white"
-            android:hint="@string/nombre_de_chambres"
-            android:spinnerMode="dialog"
-            android:contentDescription="@string/type_de_bien"
-            android:padding="15dp"
-            />
+                    />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    />
 
-        <EditText
-            android:layout_width="match_parent"
-            android:id="@+id/superficie_terrain"
-            android:layout_height="48dp"
-            android:background="@color/white"
-            android:hint="@string/superficie_du_terrain" />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/superficie_terrain"
+                    android:layout_height="48dp"
+                    android:inputType="number"
+                    android:background="@color/white"
+                    android:hint="@string/superficie_du_terrain" />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
-        <EditText
-            android:id="@+id/superficie_reel"
-            android:layout_width="match_parent"
-            android:layout_height="40dp"
-            android:background="@color/white"
-            android:textSize="20sp"
-            android:hint="@string/surface_r_el_batiment"/>
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
-        <EditText
-            android:layout_width="match_parent"
-            android:id="@+id/nbr_pieces"
-            android:layout_height="48dp"
-            android:background="@color/white"
-            android:hint="Nombres de pieces"
-            />
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    />
+                <EditText
+                    android:id="@+id/superficie_reel"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@color/white"
+                    android:inputType="number"
+                    android:textSize="20sp"
+                    android:hint="@string/surface_r_el_batiment"/>
+                <Space
+                    android:layout_width="match_parent"
+                    android:layout_height="30dp"
+                    />
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/nbr_pieces"
+                    android:layout_height="48dp"
+                    android:background="@color/white"
+                    android:hint="Nombres de pieces"
+                    android:inputType="number"
+                    />
+            </LinearLayout>
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                />
 
-        <Space
-            android:layout_width="match_parent"
-            android:layout_height="30dp"
-            />
-
-    </LinearLayout>
-    <Space
-        android:layout_width="match_parent"
-        android:layout_height="20dp"
-        />
-    <Button
-        android:id="@+id/button_estimer"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginHorizontal="30dp"
-        android:background="#DD6F4D"
-        android:text="@string/estimer"
-        android:textColor="@color/white"
-        android:textSize="25sp"
-        />
+            <Button
+                android:id="@+id/button_estimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="30dp"
+                android:background="#DD6F4D"
+                android:text="@string/estimer"
+                android:textColor="@color/white"
+                android:textSize="25sp"
+                />
         </LinearLayout>
     </ScrollView>
+
 
 </LinearLayout>
